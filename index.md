@@ -14,8 +14,8 @@ layout: default
 * [**Scrape play-by-play from PFR**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pbp_data_acquisition.ipynb).
 A scraper to grab tables from pro-football-reference.com.
 
-* [**Scrape drive-level data from ESPN**].
-A scraper specific to ESPN's web interface to grab play-by-play data.
+* [**Scrape drive-level data from ESPN**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/espn_scraper.ipynb).
+A scraper specific to ESPN's web interface to grab play-by-play data. I also process the detailed descriptions of individual plays to determine a play type (run/pass/punt, etc.) as well as the yardage gained.
 
 * [**Scrape tables from PFR with Selenium**].
 Use Selenium to gatecrash pro-footbal-reference.com's javascript and (potentially) manipulate the page in a more sophisticated manner.
