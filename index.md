@@ -9,21 +9,21 @@ layout: default
 # NFL analytics projects/posts
 
 
-## Scraping
+## Scraping and processing
 
 * [**Scrape play-by-play from PFR**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pbp_data_acquisition.ipynb).
 A scraper to grab tables from pro-football-reference.com.
+
+* [**Cleaning play-by-play data**].
+Take play-by-play data scraped from PFR and parse the play details to determine play type and results.
 
 * [**Scrape drive-level data from ESPN**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/espn_scraper.ipynb).
 A scraper specific to ESPN's web interface to grab play-by-play data. I also process the detailed descriptions of individual plays to determine a play type (run/pass/punt, etc.) as well as the yardage gained.
 
 * [**Scrape tables from PFR with Selenium**].
-Use Selenium to gatecrash pro-footbal-reference.com's javascript and (potentially) manipulate the page in a more sophisticated manner.
+Use Selenium to work with pro-footbal-reference.com's javascript and (potentially) manipulate the page in a more sophisticated way.
 
 ## Modeling/Analysis
-
-* [**Cleaning play-by-play data**].
-Take play-by-play data scraped from PFR and parse the play details to determine play type and results.
 
 * [**Modeling win-percent**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/modeling_winpct.ipynb).
 Given the game state, determine how likely one team is to go on to win the game. I try using logistic regression, a small neural net, and random forest algorithms as models and evaluate the performance of each.
