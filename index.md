@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Recent Posts
+# Recent articles/posts
 
-* Nothing here yet.
+* [**Was week 7 a turning point for the Carolina Panthers?**](https://www.catscratchreader.com/2018/10/31/18038790/was-week-7-a-turning-point-carolina-panthers-baltimore-ravens-nfc-south)A profile of the Carolina Panthers offense using stats from the first six weeks of the season.
 
 # NFL analytics projects/posts
 
@@ -14,14 +14,14 @@ layout: default
 * [**Scrape play-by-play from PFR**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pbp_data_acquisition.ipynb).
 A scraper to grab tables from pro-football-reference.com.
 
-* [**Cleaning play-by-play data**].
-Take play-by-play data scraped from PFR and parse the play details to determine play type and results.
+* [**Scrape tables from PFR with Selenium**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pfr_scraper_selenium.ipynb).
+Use Selenium to work with pro-footbal-reference.com's javascript and (potentially) manipulate the page in a more sophisticated way.
 
 * [**Scrape drive-level data from ESPN**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/espn_scraper.ipynb).
 A scraper specific to ESPN's web interface to grab play-by-play data. I also process the detailed descriptions of individual plays to determine a play type (run/pass/punt, etc.) as well as the yardage gained.
 
-* [**Scrape tables from PFR with Selenium**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pfr_scraper_selenium.ipynb).
-Use Selenium to work with pro-footbal-reference.com's javascript and (potentially) manipulate the page in a more sophisticated way.
+* [**Cleaning play-by-play data**].
+Take play-by-play data scraped from PFR and parse the play details to determine play type and results.
 
 ## Modeling/Analysis
 
@@ -30,6 +30,10 @@ Given the game state, determine how likely one team is to go on to win the game.
 
 * [**Model NFL games with Monte Carlo**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/montecarlo_games.ipynb).
 Simulate football games by drawing from a pool past drives. I score each past drive by similarity to the current game state in order to determine whether to accept a candidate drive chosen randomly from the pool. I verify that a win probability estimate based on repeated simulations converges to a single value and compare the model's predictions to those of ELO ratings. Tests on a small sample set indicate performance comparable to or better than ELO ratings.
+
+* Modeling individual plaer stats with an LSTM neural network implemented in Tensorflow (notebook coming)
+
+* Visualizing NFL game flows with Sankey diagrams using plotly (notebook coming)
 
 # Other data projects
 
