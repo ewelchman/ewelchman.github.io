@@ -16,15 +16,13 @@ A profile of the Carolina Panthers offense using stats from the first six weeks 
 A github repo containing scripts that I use to scrape NFL data from <http://pro-football-reference.com>, as well as scripts to parse the raw tables and produce data files for further analysis. 
 I have written descriptions of how previous iterations of some of the individual scripts work.
 
-### scrape_pfr
+** [**Scrape play-by-play from PFR**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pbp_data_acquisition.ipynb).
+A scraper to grab tables from pro-football-reference.com.
 
- * [**Scrape play-by-play from PFR**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pbp_data_acquisition.ipynb).
- A scraper to grab tables from pro-football-reference.com.
-
- * [**Scrape tables from PFR with Selenium**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pfr_scraper_selenium.ipynb).
+** [**Scrape tables from PFR with Selenium**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pfr_scraper_selenium.ipynb).
  Use Selenium to work with pro-footbal-reference.com's javascript and (potentially) manipulate the page in a more sophisticated way.
 
- * [**Cleaning play-by-play data**].
+** [**Cleaning play-by-play data**].
  Take play-by-play data scraped from PFR and parse the play details to determine play type and results.
 
 * [**Scrape drive-level data from ESPN**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/espn_scraper.ipynb).
@@ -40,7 +38,8 @@ Simulate football games by drawing from a pool past drives. I score each past dr
 
 * Modeling individual player stats with an LSTM neural network implemented in Tensorflow (notebook coming)
 
-* Visualizing NFL game flows with Sankey diagrams using plotly (notebook coming)
+* [**NFL game-flow sankey diagrams**](https://github.com/ewelchman/sankey_app).
+A Flask web app that uses plotly to create Sankey diagrams in order to visualize offensive or defensive performance.
 
 # Other data projects
 
