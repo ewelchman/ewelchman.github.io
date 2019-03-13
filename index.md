@@ -36,7 +36,9 @@ Given the game state, determine how likely one team is to go on to win the game.
 * [**Model NFL games with Monte Carlo**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/montecarlo_games.ipynb).
 Simulate football games by drawing from a pool past drives. I score each past drive by similarity to the current game state in order to determine whether to accept a candidate drive chosen randomly from the pool. I verify that a win probability estimate based on repeated simulations converges to a single value and compare the model's predictions to those of ELO ratings. Tests on a small sample set indicate performance comparable to or better than ELO ratings.
 
-* Modeling individual player stats with an LSTM neural network implemented in Tensorflow (notebook coming)
+* [**Modeling NFL player stats with an LSTM neural network**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/playerstats_lstm.ipynb). 
+Use an LSTM neural network implemented in TensorFlow to predict individual player stats in NFL games. The dataset comes from scraping pro-football-reference.com; my code for scraping and parsing the data can be found on github. I use stats from 2013-2016 for training, and 2017-2018 for testing and validation. The model is a two-layer LSTM cell. I transform the data with a scaling function prior to feeding the model, and use a mean-squared error cost function with a little bit of L2 regularization to help prevent overfitting, with the Adam optimizer. I do this with two different scalers and show that the results differ wildly. Finally, I transform output back to recognizable data in order to visually compare predictions with reality.
+
 
 * [**NFL game-flow sankey diagrams**](https://github.com/ewelchman/sankey_app).
 A Flask web app that uses plotly to create Sankey diagrams in order to visualize offensive or defensive performance.
