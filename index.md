@@ -2,10 +2,10 @@
 layout: default
 ---
 
-# Recent articles/posts
+# Blog posts
 
 * [**Was week 7 a turning point for the Carolina Panthers?**](https://www.catscratchreader.com/2018/10/31/18038790/was-week-7-a-turning-point-carolina-panthers-baltimore-ravens-nfc-south)
-A profile of the Carolina Panthers offense using stats from the first six weeks of the season.
+A profile of the Carolina Panthers offense using stats from the first six weeks of the 2018 season.
 
 # NFL analytics projects/posts
 
@@ -21,9 +21,6 @@ A scraper to grab tables from pro-football-reference.com.
 
   * [**Scrape tables from PFR with Selenium**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/pfr_scraper_selenium.ipynb).
  Use Selenium to work with pro-footbal-reference.com's javascript and (potentially) manipulate the page in a more sophisticated way.
-
-  * [**Cleaning play-by-play data**].
- Take play-by-play data scraped from PFR and parse the play details to determine play type and results.
 
 * [**Scrape drive-level data from ESPN**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/espn_scraper.ipynb).
 A scraper specific to ESPN's web interface to grab play-by-play data. I also process the detailed descriptions of individual plays to determine a play type (run/pass/punt, etc.) as well as the yardage gained.
@@ -41,12 +38,12 @@ Use an LSTM neural network implemented in TensorFlow to predict individual playe
 
 
 * [**NFL game-flow sankey diagrams**](https://github.com/ewelchman/sankey_app).
-A Flask web app that uses plotly to create Sankey diagrams in order to visualize offensive or defensive performance.
+A Flask web app that uses dash and plotly to create Sankey diagrams in order to visualize detailed play-by-play information and summarize offensive or defensive performance. The app takes raw play-by-play data to create a dynamic illustration of offensive performance. This kind of visual aid provides instant and intuitive understanding that can be difficult to illustrate with numbers alone.
 
 # Other data projects
 
 * [**Investigating dropped packets**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/dropped_packets.ipynb). 
-A fairly straightforward data exploration in order to investigate where and why some data packets were being dropped in the Wake Forest network.
+A straightforward data exploration in order to investigate where and why some data packets were being dropped in the Wake Forest network.
 
 * [**Scrabbledice**](https://nbviewer.jupyter.org/url/ewelchman.github.io/projects/scrabbledice.ipynb).
 Designing a Boggle-like set of dice for a board game: I implement a genetic-adjacent algorithm to find the best way to arrange letters on the dice, then for a sanity check I look at the results that score best.
